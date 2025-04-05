@@ -13,7 +13,6 @@ const totalExpense = document.getElementById('total-expense');
 const netBalance = document.getElementById('net-balance');
 const errorMsg = document.getElementById('error-msg');
 
-
 form.addEventListener('submit', (e) => {
   e.preventDefault();
 
