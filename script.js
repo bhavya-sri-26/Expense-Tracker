@@ -13,6 +13,7 @@ const totalExpense = document.getElementById('total-expense');
 const netBalance = document.getElementById('net-balance');
 const errorMsg = document.getElementById('error-msg');
 
+
 form.addEventListener('submit', (e) => {
   e.preventDefault();
 
@@ -74,6 +75,3 @@ function deleteTransaction(id) {
   transactions = transactions.filter(txn => txn.id !== id);
   renderTransactions();
 }
-flatpickr("#date", {
-    dateFormat: "dd-mm-YY"
-  });
