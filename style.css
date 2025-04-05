@@ -51,7 +51,7 @@ input, select {
   -webkit-appearance: none; /* Helps with styling on iOS */
 }
 
-input[type="date"] {
+#date{
   width: 100%;
   font-family: 'Quicksand', sans-serif;
 }
@@ -166,7 +166,7 @@ li button:hover {
     align-self: flex-end;
     margin-top: 10px;
   }
-  input[type="date"] {
+  #date{
   width: 100%;
   font-family: 'Quicksand', sans-serif;
 }
@@ -184,7 +184,7 @@ li button:hover {
   li {
     padding: 10px;
   }
-  input[type="date"] {
+  #date {
   width: 100%;
   font-family: 'Quicksand', sans-serif;
 }
