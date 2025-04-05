@@ -48,10 +48,9 @@ input, select, button {
 input, select {
   width: 100%;
   min-width: 0;
-  -webkit-appearance: none; /* Helps with styling on iOS */
 }
 
-#date{
+input[type="date"] {
   width: 100%;
   font-family: 'Quicksand', sans-serif;
 }
@@ -166,10 +165,6 @@ li button:hover {
     align-self: flex-end;
     margin-top: 10px;
   }
-  #date{
-  width: 100%;
-  font-family: 'Quicksand', sans-serif;
-}
 }
 
 @media (max-width: 480px) {
@@ -184,8 +179,5 @@ li button:hover {
   li {
     padding: 10px;
   }
-  #date {
-  width: 100%;
-  font-family: 'Quicksand', sans-serif;
-}
+  
 }
