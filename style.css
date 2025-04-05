@@ -166,6 +166,10 @@ li button:hover {
     align-self: flex-end;
     margin-top: 10px;
   }
+  input[type="date"] {
+  width: 100%;
+  font-family: 'Quicksand', sans-serif;
+}
 }
 
 @media (max-width: 480px) {
@@ -180,4 +184,8 @@ li button:hover {
   li {
     padding: 10px;
   }
+  input[type="date"] {
+  width: 100%;
+  font-family: 'Quicksand', sans-serif;
+}
 }
