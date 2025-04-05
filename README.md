@@ -14,7 +14,7 @@ A simple and elegant Expense Tracker web app built using **HTML, CSS, and JavaSc
 
 ## Demo
 
-Live here 👉 [Expense Tracker Live](https://bhavya-sri-26.github.io/Expense-Tracker)
+Live here [Expense Tracker Live](https://bhavya-sri-26.github.io/Expense-Tracker)
 
 ## Tech Stack
 
@@ -23,7 +23,7 @@ Live here 👉 [Expense Tracker Live](https://bhavya-sri-26.github.io/Expense-Tr
 - JavaScript
 
 ## Folder Structure
-Expense-Tracker ┣ 📜 index.html ┣ 📜 style.css ┣ 📜 script.js ┗ 📜 README.md
+Expense-Tracker ┣  index.html ┣ style.css ┣ script.js ┗ README.md
 
 
 ## Future Improvements
