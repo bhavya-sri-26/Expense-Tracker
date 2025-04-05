@@ -41,6 +41,19 @@ input, select, button {
   border-radius: 12px;
   background-color: #fff0f5;
   transition: 0.3s ease;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input, select {
+  width: 100%;
+  min-width: 0;
+  -webkit-appearance: none; /* Helps with styling on iOS */
+}
+
+input[type="date"] {
+  width: 100%;
+  font-family: 'Quicksand', sans-serif;
 }
 
 input:focus, select:focus {
