@@ -137,6 +137,7 @@ li button:hover {
   input, select, button {
     font-size: 14px;
     padding: 10px;
+    width:100%
   }
 
   .summary p {
