@@ -74,3 +74,6 @@ function deleteTransaction(id) {
   transactions = transactions.filter(txn => txn.id !== id);
   renderTransactions();
 }
+flatpickr("#date", {
+    dateFormat: "dd-mm-YY"
+  });
